@@ -1,0 +1,39 @@
+﻿
+# Credenciales y configuracion sensible
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+credentials.json
+secrets.json
+
+# Dependencias Node.js
+node_modules/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Archivos temporales
+tmp/
+temp/
+*.tmp
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+
+# Cobertura y compilacion
+coverage/
+dist/
+build/
